@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SexyZone</title>
+  </head>
+  <body>
+    <ul>
+      <li>SMAP</li>
+      <li>TOKIO</li>
+      <li>V6</li>
+      <li>KinKi Kids</li>
+      <li>嵐</li>
+      <li>タッキー＆翼</li>
+      <li>NEWS</li>
+      <li>関ジャニ∞</li>
+      <li>KAT-TUN</li>
+      <li>Hey! Say! JUMP</li>
+      <li>Kis-My-Ft2</li>
+      <li>Sexy Zone</li>
+      <li>A.B.C.-Z</li>
+    </ul>
+    <ul>
+      <li>Sexy</li>
+      <li>Sexyyyy</li>
+      <li>Sexy Zone</li>
+      <li>SexyZone</li>
+      <li>sexyzone</li>
+      <li>Soxy Zone</li>
+    </ul>
+    <script src="./lib/index.js"></script>
+    <script>
+        Elements.wrap({
+          target: 'Sexy Zone',
+          tar: 'xy',
+          contextNode: document.body,
+          tag: 'span',
+          attribute: {
+            style: 'color: #ff0000;'
+          },
+          event: {
+            click: function (e) {
+              console.log('text')
+            }
+          } 
+        })
+      </script>
+  </body>
+</html>
